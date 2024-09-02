@@ -23,7 +23,7 @@ jobs:
       - name: Sync upstream changes
         id: sync
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
-        with:\
+        with:
           upstream_sync_repo: CorentinTh/it-tools
           upstream_sync_branch: main
           target_sync_branch: main
